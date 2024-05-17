@@ -1,0 +1,264 @@
+PREPROCESSOR       #                  Line 1
+IDENTIFIER         include            Line 1
+OPERATOR           <                  Line 1
+IDENTIFIER         iostream           Line 1
+OPERATOR           >                  Line 1
+NEW LINE
+PREPROCESSOR       #                  Line 2
+IDENTIFIER         include            Line 2
+OPERATOR           <                  Line 2
+IDENTIFIER         complex            Line 2
+OPERATOR           >                  Line 2
+NEW LINE
+IDENTIFIER         using              Line 3
+IDENTIFIER         namespace          Line 3
+IDENTIFIER         std                Line 3
+PUNCTUATOR         ;                  Line 3
+NEW LINE
+NEW LINE
+KEYWORD            int                Line 5
+IDENTIFIER         main               Line 5
+PUNCTUATOR         (                  Line 5
+PUNCTUATOR         )                  Line 5
+PUNCTUATOR         {                  Line 5
+NEW LINE
+OPERATOR           /                  Line 6
+OPERATOR           /                  Line 6
+IDENTIFIER         Create             Line 6
+IDENTIFIER         complex            Line 6
+IDENTIFIER         numbers            Line 6
+NEW LINE
+IDENTIFIER         complex            Line 7
+OPERATOR           <                  Line 7
+KEYWORD            double             Line 7
+OPERATOR           >                  Line 7
+IDENTIFIER         c1                 Line 7
+PUNCTUATOR         (                  Line 7
+CONSTANT           3.0                Line 7
+PUNCTUATOR         ,                  Line 7
+CONSTANT           4.0                Line 7
+PUNCTUATOR         )                  Line 7
+PUNCTUATOR         ;                  Line 7
+NEW LINE
+IDENTIFIER         complex            Line 8
+OPERATOR           <                  Line 8
+KEYWORD            double             Line 8
+OPERATOR           >                  Line 8
+IDENTIFIER         c2                 Line 8
+PUNCTUATOR         (                  Line 8
+CONSTANT           1.0                Line 8
+PUNCTUATOR         ,                  Line 8
+CONSTANT           2.0                Line 8
+PUNCTUATOR         )                  Line 8
+PUNCTUATOR         ;                  Line 8
+NEW LINE
+IDENTIFIER         complex            Line 9
+OPERATOR           <                  Line 9
+KEYWORD            double             Line 9
+OPERATOR           >                  Line 9
+IDENTIFIER         c3                 Line 9
+PUNCTUATOR         (                  Line 9
+CONSTANT           0                  Line 9
+PUNCTUATOR         ,                  Line 9
+OPERATOR           -                  Line 9
+IDENTIFIER         INFINITY           Line 9
+PUNCTUATOR         )                  Line 9
+PUNCTUATOR         ;                  Line 9
+NEW LINE
+NEW LINE
+OPERATOR           /                  Line 11
+OPERATOR           /                  Line 11
+IDENTIFIER         Display            Line 11
+IDENTIFIER         complex            Line 11
+IDENTIFIER         numbers            Line 11
+NEW LINE
+IDENTIFIER         cout               Line 12
+OPERATOR           <<                 Line 12
+STRING_LITERAL     "c1 = "            Line 12
+OPERATOR           <<                 Line 12
+IDENTIFIER         c1                 Line 12
+OPERATOR           <<                 Line 12
+IDENTIFIER         endl               Line 12
+PUNCTUATOR         ;                  Line 12
+NEW LINE
+IDENTIFIER         cout               Line 13
+OPERATOR           <<                 Line 13
+STRING_LITERAL     "c2 = "            Line 13
+OPERATOR           <<                 Line 13
+IDENTIFIER         c2                 Line 13
+OPERATOR           <<                 Line 13
+IDENTIFIER         endl               Line 13
+PUNCTUATOR         ;                  Line 13
+NEW LINE
+IDENTIFIER         cout               Line 14
+OPERATOR           <<                 Line 14
+STRING_LITERAL     "c3 = "            Line 14
+OPERATOR           <<                 Line 14
+IDENTIFIER         c3                 Line 14
+OPERATOR           <<                 Line 14
+IDENTIFIER         endl               Line 14
+PUNCTUATOR         ;                  Line 14
+NEW LINE
+NEW LINE
+OPERATOR           /                  Line 16
+OPERATOR           /                  Line 16
+IDENTIFIER         Perform            Line 16
+IDENTIFIER         arithmetic         Line 16
+IDENTIFIER         operations         Line 16
+NEW LINE
+IDENTIFIER         complex            Line 17
+OPERATOR           <                  Line 17
+KEYWORD            double             Line 17
+OPERATOR           >                  Line 17
+IDENTIFIER         c4                 Line 17
+OPERATOR           =                  Line 17
+IDENTIFIER         c1                 Line 17
+OPERATOR           +                  Line 17
+IDENTIFIER         c2                 Line 17
+PUNCTUATOR         ;                  Line 17
+NEW LINE
+IDENTIFIER         complex            Line 18
+OPERATOR           <                  Line 18
+KEYWORD            double             Line 18
+OPERATOR           >                  Line 18
+IDENTIFIER         c5                 Line 18
+OPERATOR           =                  Line 18
+IDENTIFIER         c1                 Line 18
+OPERATOR           -                  Line 18
+IDENTIFIER         c2                 Line 18
+PUNCTUATOR         ;                  Line 18
+NEW LINE
+IDENTIFIER         complex            Line 19
+OPERATOR           <                  Line 19
+KEYWORD            double             Line 19
+OPERATOR           >                  Line 19
+IDENTIFIER         c6                 Line 19
+OPERATOR           =                  Line 19
+IDENTIFIER         c1                 Line 19
+OPERATOR           *                  Line 19
+IDENTIFIER         c2                 Line 19
+PUNCTUATOR         ;                  Line 19
+NEW LINE
+IDENTIFIER         complex            Line 20
+OPERATOR           <                  Line 20
+KEYWORD            double             Line 20
+OPERATOR           >                  Line 20
+IDENTIFIER         c7                 Line 20
+OPERATOR           =                  Line 20
+IDENTIFIER         c1                 Line 20
+OPERATOR           /                  Line 20
+IDENTIFIER         c2                 Line 20
+PUNCTUATOR         ;                  Line 20
+NEW LINE
+NEW LINE
+OPERATOR           /                  Line 22
+OPERATOR           /                  Line 22
+IDENTIFIER         Display            Line 22
+IDENTIFIER         results            Line 22
+NEW LINE
+IDENTIFIER         cout               Line 23
+OPERATOR           <<                 Line 23
+STRING_LITERAL     "c1 + c2 = "       Line 23
+OPERATOR           <<                 Line 23
+IDENTIFIER         c4                 Line 23
+OPERATOR           <<                 Line 23
+IDENTIFIER         endl               Line 23
+PUNCTUATOR         ;                  Line 23
+NEW LINE
+IDENTIFIER         cout               Line 24
+OPERATOR           <<                 Line 24
+STRING_LITERAL     "c1 - c2 = "       Line 24
+OPERATOR           <<                 Line 24
+IDENTIFIER         c5                 Line 24
+OPERATOR           <<                 Line 24
+IDENTIFIER         endl               Line 24
+PUNCTUATOR         ;                  Line 24
+NEW LINE
+IDENTIFIER         cout               Line 25
+OPERATOR           <<                 Line 25
+STRING_LITERAL     "c1 * c2 = "       Line 25
+OPERATOR           <<                 Line 25
+IDENTIFIER         c6                 Line 25
+OPERATOR           <<                 Line 25
+IDENTIFIER         endl               Line 25
+PUNCTUATOR         ;                  Line 25
+NEW LINE
+IDENTIFIER         cout               Line 26
+OPERATOR           <<                 Line 26
+STRING_LITERAL     "c1 / c2 = "       Line 26
+OPERATOR           <<                 Line 26
+IDENTIFIER         c7                 Line 26
+OPERATOR           <<                 Line 26
+IDENTIFIER         endl               Line 26
+PUNCTUATOR         ;                  Line 26
+NEW LINE
+NEW LINE
+OPERATOR           /                  Line 28
+OPERATOR           /                  Line 28
+IDENTIFIER         Calculate          Line 28
+IDENTIFIER         norm               Line 28
+PUNCTUATOR         ,                  Line 28
+IDENTIFIER         conjugate          Line 28
+PUNCTUATOR         ,                  Line 28
+IDENTIFIER         and                Line 28
+IDENTIFIER         projection         Line 28
+NEW LINE
+IDENTIFIER         cout               Line 29
+OPERATOR           <<                 Line 29
+STRING_LITERAL     "Norm of c1 = "    Line 29
+OPERATOR           <<                 Line 29
+IDENTIFIER         norm               Line 29
+PUNCTUATOR         (                  Line 29
+IDENTIFIER         c1                 Line 29
+PUNCTUATOR         )                  Line 29
+OPERATOR           <<                 Line 29
+IDENTIFIER         endl               Line 29
+PUNCTUATOR         ;                  Line 29
+NEW LINE
+OPERATOR           /                  Line 30
+OPERATOR           /                  Line 30
+IDENTIFIER         Display            Line 30
+IDENTIFIER         results            Line 30
+NEW LINE
+IDENTIFIER         cout               Line 31
+OPERATOR           <<                 Line 31
+STRING_LITERAL     "c1 + c2 = "       Line 31
+OPERATOR           <<                 Line 31
+IDENTIFIER         c4                 Line 31
+OPERATOR           <<                 Line 31
+IDENTIFIER         endl               Line 31
+PUNCTUATOR         ;                  Line 31
+NEW LINE
+IDENTIFIER         cout               Line 32
+OPERATOR           <<                 Line 32
+STRING_LITERAL     "c1 - c2 = "       Line 32
+OPERATOR           <<                 Line 32
+IDENTIFIER         c5                 Line 32
+OPERATOR           <<                 Line 32
+IDENTIFIER         endl               Line 32
+PUNCTUATOR         ;                  Line 32
+NEW LINE
+IDENTIFIER         cout               Line 33
+OPERATOR           <<                 Line 33
+STRING_LITERAL     "c1 * c2 = "       Line 33
+OPERATOR           <<                 Line 33
+IDENTIFIER         c6                 Line 33
+OPERATOR           <<                 Line 33
+IDENTIFIER         endl               Line 33
+PUNCTUATOR         ;                  Line 33
+NEW LINE
+IDENTIFIER         cout               Line 34
+OPERATOR           <<                 Line 34
+STRING_LITERAL     "c1 / c2 = "       Line 34
+OPERATOR           <<                 Line 34
+IDENTIFIER         c7                 Line 34
+OPERATOR           <<                 Line 34
+IDENTIFIER         endl               Line 34
+PUNCTUATOR         ;                  Line 34
+NEW LINE
+KEYWORD            return             Line 35
+CONSTANT           0                  Line 35
+PUNCTUATOR         ;                  Line 35
+NEW LINE
+PUNCTUATOR         }                  Line 36
+END OF FILE
