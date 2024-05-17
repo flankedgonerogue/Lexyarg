@@ -215,50 +215,9 @@ OPERATOR           <<                 Line 29
 IDENTIFIER         endl               Line 29
 PUNCTUATOR         ;                  Line 29
 NEW LINE
-OPERATOR           /                  Line 30
-OPERATOR           /                  Line 30
-IDENTIFIER         Display            Line 30
-IDENTIFIER         results            Line 30
+KEYWORD            return             Line 30
+CONSTANT           0                  Line 30
+PUNCTUATOR         ;                  Line 30
 NEW LINE
-IDENTIFIER         cout               Line 31
-OPERATOR           <<                 Line 31
-STRING_LITERAL     "c1 + c2 = "       Line 31
-OPERATOR           <<                 Line 31
-IDENTIFIER         c4                 Line 31
-OPERATOR           <<                 Line 31
-IDENTIFIER         endl               Line 31
-PUNCTUATOR         ;                  Line 31
-NEW LINE
-IDENTIFIER         cout               Line 32
-OPERATOR           <<                 Line 32
-STRING_LITERAL     "c1 - c2 = "       Line 32
-OPERATOR           <<                 Line 32
-IDENTIFIER         c5                 Line 32
-OPERATOR           <<                 Line 32
-IDENTIFIER         endl               Line 32
-PUNCTUATOR         ;                  Line 32
-NEW LINE
-IDENTIFIER         cout               Line 33
-OPERATOR           <<                 Line 33
-STRING_LITERAL     "c1 * c2 = "       Line 33
-OPERATOR           <<                 Line 33
-IDENTIFIER         c6                 Line 33
-OPERATOR           <<                 Line 33
-IDENTIFIER         endl               Line 33
-PUNCTUATOR         ;                  Line 33
-NEW LINE
-IDENTIFIER         cout               Line 34
-OPERATOR           <<                 Line 34
-STRING_LITERAL     "c1 / c2 = "       Line 34
-OPERATOR           <<                 Line 34
-IDENTIFIER         c7                 Line 34
-OPERATOR           <<                 Line 34
-IDENTIFIER         endl               Line 34
-PUNCTUATOR         ;                  Line 34
-NEW LINE
-KEYWORD            return             Line 35
-CONSTANT           0                  Line 35
-PUNCTUATOR         ;                  Line 35
-NEW LINE
-PUNCTUATOR         }                  Line 36
+PUNCTUATOR         }                  Line 31
 END OF FILE

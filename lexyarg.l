@@ -23,7 +23,6 @@ char* format_output(const char* type, const char* yytext, int line) {
 
     char* output = malloc(sizeof(char) * 100);
     snprintf(output, 100, "%s%s%s%sLine %d\n", type, space0, yytext, space1, line);
-    printf("%s\n", output);
     free(space0);
     free(space1);
     return output;
@@ -96,6 +95,7 @@ NEW_LINE            "\n"
                             fflush(output_file);
                             free(output);
                         }
+
 {PREPROCESSOR}          {
                             char* output = format_output("PREPROCESSOR", yytext, line);
                             fputs(output, output_file);
@@ -114,6 +114,8 @@ NEW_LINE            "\n"
                             fflush(output_file);
                             return 0;
                         }
+
+" "                     ;
 
 .                       {
                             printf("IGNORED \"%s\" ON LINE %d\n", yytext, line);
